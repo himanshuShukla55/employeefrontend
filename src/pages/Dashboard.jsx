@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { userLogoutSuccess } from "../Redux/Action";
+import { userLogoutSuccess } from "../Redux/action";
 
 const Dashboard = () => {
   const dispatch = useDispatch();
